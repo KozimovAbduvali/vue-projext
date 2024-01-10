@@ -3,12 +3,12 @@
     <img src="../assets/images/filippo.png" class="w-full lg:w-1/2 h-96 md:h-[28rem] xl:h-[38rem] lg:absolute left-0 top-0 object-cover">
     <div class="max-w-base mx-auto px-4 md:px-6">
       <div class="md:w-2/3 lg:w-1/2 space-y-6 lg:ml-auto py-8 lg:py-20 lg:pl-20 xl:pl-28">
-        <p class="font-roboto font-bold text-secondary">
+        <p class="font-roboto font-bold text-secondary uppercase">
           chi sono
         </p>
         <div class="border-l border-sky pl-2 md:pl-6  mt-3">
           <h2 class="text-primary">
-            L’avvocato  Filippo Barbara
+            Contattami per una consulenza
           </h2>
           <p class="text-brand-dark mt-5">
             Lorem ipsum dolor sit amet consectetur. Elementum mattis erat bibendum nibh venenatis sollicitudin a felis

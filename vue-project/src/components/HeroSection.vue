@@ -1,6 +1,6 @@
 <!-- MainContent.vue -->
 <template>
- <section class="bg-hero-img bg-cover bg-fixed pt-32 lg:pt-60 pb-20 lg:pb-[15rem]">
+ <section class="bg-hero-img bg-cover bg-left bg-fixed pt-32 lg:pt-60 pb-20 lg:pb-[15rem]">
   <div class="max-w-base h-full flex flex-col justify-center text-white  mx-auto px-4 md:px-6">
     <h1 class="max-w-3xl text-center md:text-left text-[2.6rem] lg:text-5xl xl:text-7xl leading-[1] mx-auto md:mx-0">
       Avvocato specializzato nel settore 

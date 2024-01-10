@@ -10,6 +10,6 @@
     @apply font-body bg-white text-black
   }
   h2 {
-    @apply font-bold text-display lg:text-display-2
+    @apply font-bold text-display lg:text-display-2 leading-[1]
   }
 }
