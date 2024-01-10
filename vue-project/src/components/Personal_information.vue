@@ -1,5 +1,5 @@
 <template>
-  <section class="relative">
+  <section class="relative overflow-hidden">
     <img src="../assets/images/filippo.png" class="w-full lg:w-1/2 h-96 md:h-[28rem] xl:h-[38rem] lg:absolute left-0 top-0 object-cover">
     <div class="max-w-base mx-auto px-4 md:px-6">
       <div class="md:w-2/3 lg:w-1/2 space-y-6 lg:ml-auto py-8 lg:py-20 lg:pl-20 xl:pl-28">
