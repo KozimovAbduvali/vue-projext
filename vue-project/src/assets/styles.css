@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,5 +8,8 @@
 @layer base {
   body {
     @apply font-body bg-white text-black
+  }
+  h2 {
+    @apply font-bold text-display lg:text-display-2
   }
 }

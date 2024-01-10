@@ -1,7 +1,7 @@
 <!-- Navbar.vue -->
 <template>
   <header class="bg-white w-full fixed top-0 left-0 z-40">
-    <nav class="max-w-base flex justify-between items-center mx-auto p-5">
+    <nav class="max-w-base flex justify-between items-center mx-auto p-4 md:p-6 pt-8 md:pt-6">
       <!-- logo -->
       <div>
         <router-link to="/" class="cursor-pointer">
@@ -28,7 +28,7 @@
       </div>
     </nav>
     <!-- mobile menu -->
-    <div v-if="isMenuOpen" class="lg:hidden mt-2">
+    <div v-if="isMenuOpen" class="block lg:hidden mt-2">
       <router-link v-for="item in items" :key="item.id" class="text-primary cursor-pointer transition-colors duration-300 hover:text-primary/60">{{ item.title }}</router-link>
     </div>
   </header>
@@ -38,8 +38,13 @@
 export default {
   data() {
     return {
-      isMenuOpen: false,
+      isMenuOpen: true,
     };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    },
   },
   data() {
     return {
@@ -49,17 +54,12 @@ export default {
         { id: 3, title: 'aggiornamenti',},
         { id: 4, title: 'chi sono',},
         { id: 5, title: 'contatti',},
-        // Add more items as needed
       ],
     };
   },
-  methods: {
-    toggleMenu() {
-      this.isMenuOpen = !this.isMenuOpen;
-    },
-  },
 };
 </script>
+
 
 <style scoped>
 /* Add any custom styles here */
