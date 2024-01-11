@@ -9,7 +9,6 @@
     <Ambiti_intervento />
     <Aggiornamenti />
     <Map_location />
-    
   </main>
 </template>
 

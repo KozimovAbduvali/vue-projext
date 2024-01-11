@@ -18,7 +18,6 @@
 <script>
 import Swiper from 'swiper';
 // import 'swiper/css/swiper.css';
-
 export default {
   data() {
     return {
@@ -55,6 +54,5 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 </style>
