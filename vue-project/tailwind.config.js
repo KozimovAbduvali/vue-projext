@@ -29,6 +29,7 @@ export default {
         'hero-img': "url('./images/hero.png')",
       }
     },
+
   },
   plugins: [],
 }

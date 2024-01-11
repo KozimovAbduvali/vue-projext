@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600&display=swap');
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 
 @layer base {
@@ -13,3 +18,4 @@
     @apply font-bold text-display lg:text-display-2 leading-[1]
   }
 }
+
