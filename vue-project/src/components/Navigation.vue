@@ -1,6 +1,6 @@
 Navbar.vue
 <template>
-  <header class="bg-white w-full fixed top-0 left-0 z-40">
+  <header class="bg-white w-full fixed top-0 left-0 z-40 shadow-lg">
     <nav class="max-w-base flex justify-between items-center mx-auto p-4 md:p-6 pt-8 md:pt-6">
       <!-- logo -->
       <div>
