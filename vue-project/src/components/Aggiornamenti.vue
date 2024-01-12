@@ -66,7 +66,6 @@ export default {
   },
   mounted() {
     this.swiper = this.$refs.mySwiper.$swiper;
-    Rest of your Swiper initialization code
   },
 
   mounted() {
