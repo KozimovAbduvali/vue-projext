@@ -20,8 +20,6 @@
 </template>
 
 <script>
-import Footer from './Footer.vue';
-
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 
@@ -70,8 +68,22 @@ export default {
 
   mounted() {
     this.swiper = new Swiper('.swiper-container', {
+      breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+        },
       slidesPerView: 3,
-      // spaceBetween: 20,
+      spaceBetween: 20,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
