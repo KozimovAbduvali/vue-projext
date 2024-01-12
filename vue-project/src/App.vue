@@ -9,6 +9,8 @@
     <Ambiti_intervento />
     <Aggiornamenti />
     <Map_location />
+    <Footer />
+
   </main>
 </template>
 
@@ -19,7 +21,7 @@ import Personal_information from './components/Personal_information.vue';
 import Ambiti_intervento from './components/Ambiti_intervento.vue';
 import Aggiornamenti from './components/Aggiornamenti.vue';
 import Map_location from './components/Map_location.vue';
-
+import Footer from './components/Footer.vue';
 export default {
   components: {
     Navigation,
@@ -28,7 +30,7 @@ export default {
     Ambiti_intervento,
     Aggiornamenti,
     Map_location,
+    Footer
 },
 };
 </script>
-
