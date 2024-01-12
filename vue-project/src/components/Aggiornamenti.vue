@@ -70,7 +70,7 @@ export default {
 
   mounted() {
     this.swiper = new Swiper('.swiper-container', {
-      // slidesPerView: 1,
+      slidesPerView: 3,
       // spaceBetween: 20,
       pagination: {
         el: '.swiper-pagination',
