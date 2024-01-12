@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-base mx-auto px-4 md:px-6 py-10 md:py-20 overflow-x-visible">
-    <Swiper :slidesPerView="{320: 1, 640: 2, 768: 3}" :spaceBetween="30" :modules="modules" class="mySwiper">
+    <Swiper :slidesPerView="{320: 1, 640: 2, 768: 3}" :spaceBetween="20" :modules="modules" class="mySwiper">
       <SwiperSlide v-for="card in cards" :key="card.id" class="swiper-slide !overflow-x-visible">
         <div class="card">
           <div class="card-content shadow">
@@ -70,8 +70,8 @@ export default {
 
   mounted() {
     this.swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 20,
+      // slidesPerView: 1,
+      // spaceBetween: 20,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
