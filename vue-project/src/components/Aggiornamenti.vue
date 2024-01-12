@@ -1,6 +1,10 @@
 <template>
   <div class="max-w-base mx-auto px-4 md:px-6 py-10 md:py-20 overflow-x-visible">
-    <Swiper :slidesPerView="{320: 1, 640: 2, 768: 3}" :spaceBetween="20" :modules="modules" class="mySwiper">
+    <Swiper :slides-per-view="3"
+    :space-between="50"
+    @swiper="onSwiper"
+    @slideChange="onSlideChange"
+    class="mySwiper">
       <SwiperSlide v-for="card in cards" :key="card.id" class="swiper-slide !overflow-x-visible">
         <div class="card">
           <div class="card-content shadow">
