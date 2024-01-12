@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-base mx-auto px-4 md:px-6 py-10 md:py-20 overflow-x-visible">
-    <Swiper :slides-per-view="3"
+    <Swiper :slides-per-view="{320: 1, 640: 2, 768: 3}"
     :space-between="50"
     @swiper="onSwiper"
     @slideChange="onSlideChange"
@@ -72,20 +72,6 @@ export default {
 
   mounted() {
     this.swiper = new Swiper('.swiper-container', {
-      breakpoints: {
-            640: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-            },
-            1024: {
-                slidesPerView: 4,
-                spaceBetween: 40,
-            },
-        },
       slidesPerView: 3,
       spaceBetween: 20,
       pagination: {
